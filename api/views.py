@@ -40,8 +40,3 @@ def select_card(request, card_id):
     return Response(serializer)
   except Card.DoesNotExist:
     return Response({"error": "Card not found"}, status=404)
-
-  
-
-       
-   

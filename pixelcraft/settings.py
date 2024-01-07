@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'pixelcraft.wsgi.application'
 DATABASES = {
     'default': {
        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'pixelcraft',
-        'USER': 'root',
-        'PASSWORD': 'admin',        
-        'PORT': '3306', 
+        'NAME': 'railway', #DATABASE NAME
+        'USER': 'root', #USER
+        'PASSWORD': '5Ad4F2E5bh34h6gFd36CG1hHChf44-12', #PASSWORD      
+        'PORT': '46851', #PORT
     }
 }
 
