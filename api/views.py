@@ -5,6 +5,10 @@ from api.serializers import CardSerializer
 from api.utils import random_card
 
 
+@api_view(['GET'])
+def get_ping():
+  return Response({"message": "pong!"})
+
 
 @api_view(['GET'])
 def get_cards(request):
