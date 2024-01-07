@@ -1,1 +1,1 @@
-web: gunicorn 'pixelcraft.wsgi'
+web: gunicorn 'pixelcraft.wsgi' --log-file -
