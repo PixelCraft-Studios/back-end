@@ -5,7 +5,6 @@ from django.conf.urls.static import static
 
 
 urlpatterns = [
-  path('/', ),
   path('get-cards/', get_cards),
   path('create-card/', create_card),
   path('select-card/<int:card_id>/', select_card),
