@@ -85,6 +85,9 @@ DATABASES = {
         'PORT': '46851', #PORT
     }
 }
+CSRF_TRUSTED_ORIGINS = [
+    'back-end-production-7ad6.up.railway.app'
+]
 
 
 # Password validation
